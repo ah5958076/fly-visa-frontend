@@ -1,5 +1,6 @@
 import ContactInfo from "../../components/ContactInfo";
 import NavBar from "../../components/NavBar";
+import FlyVisaStaff from "./components/FlyVisaStaff";
 import HomeIntro from "./components/HomeIntro";
 import WhyTravel from "./components/WhyTravel";
 import styles from "./styles.module.css";
@@ -12,6 +13,7 @@ function Home() {
 
       <HomeIntro />
       <WhyTravel />
+      <FlyVisaStaff />
     </div>
   );
 }
