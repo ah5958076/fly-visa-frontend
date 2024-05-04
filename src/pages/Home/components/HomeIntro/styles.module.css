@@ -1,0 +1,74 @@
+.intro_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/dummy.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 70px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0px;
+    margin-bottom: 30px;
+}
+.heading::before,
+.heading::after{
+    content: '';
+    position: absolute;
+    width: 130px;
+    height: 100%;
+    border: 2px solid var(--primary);
+    border-radius: 10px;
+    z-index: 0;
+}
+.heading::before{
+    transform: translateY(-5px) translateX(10px);
+}
+.heading::after{
+    transform: translateY(5px) translateX(30px);
+}
+.heading h1{
+    letter-spacing: 1px;
+    width: 100%;
+    z-index: 1;
+}
+.heading p{
+    font-weight: bold;
+    width: 100%;
+    z-index: 1;
+}
+.heading_stroke{
+    -webkit-text-stroke: 1px var(--fg);
+}
+.search_tour{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #00000080;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: fit-content;
+}
+.search_tour .interactor{
+    width: 130px;
+    padding: 10px 5px;
+    background-color: var(--bg);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search_tour .interactor select,
+.search_tour .interactor input{
+    width: 100%;
+}
+.search_tour button.interactor{
+    background-color: var(--fg);
+    color: var(--bg);
+    justify-content: center;
+    cursor: pointer;
+}

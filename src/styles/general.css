@@ -1,0 +1,29 @@
+:root{
+    --fg: black;
+    --bg: white;
+    --primary: green;
+}
+
+*{
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--bg);
+}
+
+a, button,input, select, textarea{
+    resize: none;
+    outline: none;
+    border: none;
+    color: var(--fg);
+    text-decoration: none;
+}
+
+.primary_clr{
+    color: var(--primary);
+}
