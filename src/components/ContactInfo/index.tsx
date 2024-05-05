@@ -24,7 +24,7 @@ function ContactInfo() {
           icon={faLocationDot}
           size="lg"
         />
-        <a href="">Islamabad Pakistan</a>
+        <a href="https://maps.app.goo.gl/5in6FEu5EsfB5EXz9">Islamabad Pakistan</a>
       </div>
       <div>
         <FontAwesomeIcon color="var(--primary)" icon={faEnvelope} size="sm" />
