@@ -1,1 +1,1 @@
-export const INTRO_PIC = "/dummy.svg";
+export const INTRO_PIC = "/home-page intro.png";

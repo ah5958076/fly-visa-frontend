@@ -1,7 +1,7 @@
 :root{
     --fg: black;
     --bg: white;
-    --primary: green;
+    --primary: #99BE48;
 }
 
 *{
