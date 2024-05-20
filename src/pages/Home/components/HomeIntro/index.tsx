@@ -25,7 +25,7 @@ function HomeIntro() {
         </div>
         <div className={styles.interactor}>
           <select>
-            <option value="-" defaultValue>
+            <option value="-" selected>
               Select Type
             </option>
             <option value="Tour Type 1">Tour Type 1</option>
