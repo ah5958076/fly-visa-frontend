@@ -1,4 +1,4 @@
-import { INTRO_PIC } from "../../../../constants/images";
+import { DUMMY_USER_1 } from "../../../../constants/images";
 import styles from "./styles.module.css";
 
 function FlyVisaStaff() {
@@ -10,9 +10,9 @@ function FlyVisaStaff() {
       </p>
       <div className={styles.staff_list}>
         <div className={styles.images}>
-          <img className={styles.staff_image} src={INTRO_PIC} alt="..." />
-          <img className={styles.staff_image} src={INTRO_PIC} alt="..." />
-          <img className={styles.staff_image} src={INTRO_PIC} alt="..." />
+          <img className={styles.staff_image} src={DUMMY_USER_1} alt="..." />
+          <img className={styles.staff_image} src={DUMMY_USER_1} alt="..." />
+          <img className={styles.staff_image} src={DUMMY_USER_1} alt="..." />
         </div>
         <div className={styles.staff_names}>
           <div>

@@ -1,3 +1,5 @@
+import { faSearch } from "@fortawesome/free-solid-svg-icons/index";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome/index";
 import styles from "./styles.module.css";
 
 function HomeIntro() {
@@ -23,7 +25,7 @@ function HomeIntro() {
         </div>
         <div className={styles.interactor}>
           <select>
-            <option value="-" selected>
+            <option value="-" defaultValue>
               Select Type
             </option>
             <option value="Tour Type 1">Tour Type 1</option>
@@ -32,7 +34,7 @@ function HomeIntro() {
           </select>
         </div>
         <button className={styles.interactor}>
-          {/* search icon */}
+          <FontAwesomeIcon icon={faSearch} color={"var(--bg)"} />
           Find Now
         </button>
       </div>

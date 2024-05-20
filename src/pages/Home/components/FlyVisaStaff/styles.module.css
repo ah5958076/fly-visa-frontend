@@ -1,5 +1,5 @@
 .staff_container{
-    background-image: url("/dummy.svg");
+    background-image: url("/staff_background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -8,6 +8,7 @@
     flex-direction: column;
     align-items: center;
     gap: 25px;
+    width: 100%;
 }
 .staff_container .heading{
     color: var(--bg);
@@ -22,33 +23,31 @@
 }
 .staff_list .images{
     display: flex;
+    justify-content: space-around;
     gap: 30px;
     width: 100%;
     border-radius: 10px;
 }
 .staff_list .images .staff_image{
-    width: 100%;
-    min-width: 250px;
-    max-width: 300px;
+    width: 250px;
     aspect-ratio: 1/1;
     border: 3px solid var(--bg);
     background-color: var(--primary);
     border-radius: 10px;
     object-fit: cover;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .staff_list .staff_names{
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    width: 100%;
+    width: 90%;
     background-color: #00000094;
     border-radius: 5px;
     padding: 5px;
 }
 .staff_list .staff_names>div{
-    width: 100%;
-    min-width: 250px;
-    max-width: 300px;
+    width: 250px;
     display: flex;
     align-items: center;
     flex-direction: column;

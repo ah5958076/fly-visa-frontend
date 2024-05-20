@@ -1,4 +1,4 @@
-import { INTRO_PIC } from "../../../../constants/images";
+import { CARD_IMG_1 } from "../../../../constants/images";
 import styles from "./styles.module.css";
 
 function WhyTravel() {
@@ -12,33 +12,33 @@ function WhyTravel() {
       </p>
       <div className={styles.cards}>
         <div className={styles.card}>
-          <img src={INTRO_PIC} alt="..." />
+          <img src={CARD_IMG_1} alt="..." />
           <div className={styles.card_body}>
-            <img src={INTRO_PIC} alt="..." />
+            <img src={CARD_IMG_1} alt="..." />
             <p className="primary_clr">2000+</p>
             <p>WorldWide guide</p>
           </div>
         </div>
         <div className={styles.card}>
-          <img src={INTRO_PIC} alt="..." />
+          <img src={CARD_IMG_1} alt="..." />
           <div className={styles.card_body}>
-            <img src={INTRO_PIC} alt="..." />
+            <img src={CARD_IMG_1} alt="..." />
             <p className="primary_clr">100%</p>
             <p>Trusted Tour Agency</p>
           </div>
         </div>
         <div className={styles.card}>
-          <img src={INTRO_PIC} alt="..." />
+          <img src={CARD_IMG_1} alt="..." />
           <div className={styles.card_body}>
-            <img src={INTRO_PIC} alt="..." />
+            <img src={CARD_IMG_1} alt="..." />
             <p className="primary_clr">100%</p>
             <p>Trusted Tour Agency</p>
           </div>
         </div>
         <div className={styles.card}>
-          <img src={INTRO_PIC} alt="..." />
+          <img src={CARD_IMG_1} alt="..." />
           <div className={styles.card_body}>
-            <img src={INTRO_PIC} alt="..." />
+            <img src={CARD_IMG_1} alt="..." />
             <p className="primary_clr">98%</p>
             <p>Of Our Customers are Happy</p>
           </div>
